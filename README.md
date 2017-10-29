@@ -20,6 +20,8 @@ You can find how we benchmark it [here](http://www.phpbenchmarks.com/en/benchmar
 
 You can find all Laravel benchmarks [here](http://www.phpbenchmarks.com/fr/benchmark/apache-bench/php-7.1/select-version/laravel.html).
 
+See [changelog](changelog.md) to see optimisations.
+
 ## Installation
 
 ```php
