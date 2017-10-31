@@ -10,8 +10,6 @@ class RestApiProvider extends ServiceProvider
 {
     public function boot()
     {
-        parent::boot();
-
         app('events')->listen(DefineLang::class, function(DefineLang $defineLang) {
             app()->setLocale($defineLang->getLang());
         });
