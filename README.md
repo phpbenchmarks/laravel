@@ -12,53 +12,30 @@ You can compare results between Apache Bench and Siege, PHP 5.6 to 7.2 and versi
 
 ## What is this repository ?
 
-It's benchmark source code for almost all Laravel versions.
+It's benchmark bundles for almost all Laravel versions.
+
+Hello World: [helloworld](https://github.com/phpbenchmarks/laravel/tree/helloworld)
+
+REST Api: [restapi](https://github.com/phpbenchmarks/laravel/tree/restapi)
+
+Blog: [blog](https://github.com/phpbenchmarks/laravel/tree/blog)
+
+Small overload: [smalloverload](https://github.com/phpbenchmarks/laravel/tree/smalloverload)
+
+Big overload: [bigoverload](https://github.com/phpbenchmarks/laravel/tree/bigoverload)
 
 You can find how we benchmark it [here](http://www.phpbenchmarks.com/en/benchmark-protocol).
 
-## Laravel
+## How version works ?
 
-You can find all Laravel benchmarks [here](http://www.phpbenchmarks.com/fr/benchmark/apache-bench/php-7.1/select-version/laravel.html).
+We do not follow semantic version for this repository. Here is an explanation about our versioning system:
 
-See [changelog](changelog.md) to see optimisations.
+`X` benchmark type (`1` Hello World, `2` Blog, `3` REST Api, `4` Small overload, `5` Big overload)
 
-## Installation
+`Y` related to Laravel version (`0` for `5.x`)
 
-```php
-# app/Http/routes.php
-require(__DIR__ . '/../../vendor/phpbenchmarks/laravel/Http/routes.php');
-```
+`Z` new version, not just bugfix and could contains BC
 
-```php
-# config/app.php
-    'providers' => [
-        PhpBenchmarksLaravel\Providers\RestApiProvider::class
-    ]
-```
+## Laravel benchmarks
 
-```php
-# app/Http/Controllers/HelloWorldController.php
-namespace App\Http\Controllers;
-
-class HelloWorldController extends \PhpBenchmarksLaravel\Http\Controllers\HelloWorldController
-{
-}
-
-```
-
-```php
-# app/Http/Controllers/RestController.php
-namespace App\Http\Controllers;
-
-class RestController extends \PhpBenchmarksLaravel\Http\Controllers\RestController
-{
-}
-```
-
-```bash
-mkdir resources/lang/en_GB
-touch resources/lang/en_GB/.gitkeep
-
-mkdir resources/lang/fr_FR
-touch resources/lang/fr_FR/.gitkeep
-```
+You can find all Laravel benchmarks [here](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2/select-version/laravel.html).
