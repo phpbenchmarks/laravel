@@ -4,10 +4,19 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "PhpBenchmarksLaravel\\": ""
+            "Overload\\": "src/"
+
         }
     },
     "require": {
         "php": ">=5.4.0"
-    }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Overload\\ServiceProvider"
+            ]
+            
+        }
+    },
 }
