@@ -1,0 +1,22 @@
+{
+    "name": "phpbenchmarks/laravel",
+    "license": "proprietary",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Overload\\": "src/"
+
+        }
+    },
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Overload\\ServiceProvider"
+            ]
+            
+        }
+    },
+}
