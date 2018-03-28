@@ -1,5 +1,5 @@
 {
-    "name": "phpbenchmarks/laravel",
+    "name": "etouraille/laravel",
     "license": "proprietary",
     "type": "project",
     "autoload": {
