@@ -30,9 +30,10 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider {
 
 	public function boot() {
 	
-		$this->loadRoutesFrom(__DIR__.'/routes/routes.php');
+		//$this->loadRoutesFrom(__DIR__.'/routes/routes.php');
+		require __DIR__.'/routes/routes.php'
 		$this->loadTranslationsFrom(__DIR__.'/lang','overload');
-		$this->loadMigrationsFrom(__DIR__.'/Migrations');
+		//$this->loadMigrationsFrom(__DIR__.'/Migrations');
 		$this->loadViewsFrom(__DIR__.'/views', 'overload');
 
 		
