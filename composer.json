@@ -4,7 +4,7 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Overload\\": "src/"
+            "SmallOverload\\": ""
 
         }
     },
@@ -14,7 +14,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Overload\\ServiceProvider"
+                "SmallOverload\\ServiceProvider"
             ]
             
         }
