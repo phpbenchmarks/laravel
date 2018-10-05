@@ -1,0 +1,11 @@
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+/.idea
+.env
+config/database.php
+composer.lock
+resources/lang/en/phpbenchmarks.php
+resources/lang/en_GB/phpbenchmarks.php
+resources/lang/fr_FR/phpbenchmarks.php
