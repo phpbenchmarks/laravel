@@ -1,5 +1,6 @@
 vendor/
 .idea/
+!bootstrap/cache/.gitkeep
 bootstrap/cache/
 config/database.php
 composer.lock
