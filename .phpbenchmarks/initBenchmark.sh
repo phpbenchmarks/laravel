@@ -18,6 +18,7 @@ function clearCache() {
     mkdir storage/framework/sessions
 }
 
+rm -rf bootstrap/cache/*
 composer install --no-dev --classmap-authoritative
 clearCache
 php artisan config:cache
