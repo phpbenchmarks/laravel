@@ -7,7 +7,7 @@
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.8.14",
         "laravel/tinker": "^1.0",
-        "phpbenchmarks/laravel-common": "5.3.1"
+        "phpbenchmarks/laravel-common": "5.3.2"
     },
     "autoload": {
         "psr-4": {
