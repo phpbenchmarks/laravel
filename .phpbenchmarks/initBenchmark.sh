@@ -19,7 +19,7 @@ function clearCache() {
 }
 
 rm -rf bootstrap/cache/*
-composer install --no-dev --classmap-authoritative
+composer install --no-dev --classmap-authoritative --ansi
 clearCache
 php artisan config:cache
 php artisan route:cache
