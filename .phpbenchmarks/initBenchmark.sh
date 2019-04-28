@@ -18,6 +18,11 @@ function clearCache() {
     mkdir storage/framework/sessions
 }
 
+composer install --no-dev --classmap-authoritative
+clearCache
+php artisan config:cache
+php artisan route:cache
+
 pwd=$(pwd)
 langEn="$pwd/vendor/phpbenchmarks/laravel-common/Resources/lang/en/phpbenchmarks.php"
 langEnGb="$pwd/vendor/phpbenchmarks/laravel-common/Resources/lang/en_GB/phpbenchmarks.php"
@@ -37,9 +42,3 @@ if [ -L "$pwd/resources/lang/fr_FR/phpbenchmarks.php" ]; then
     rm "$pwd/resources/lang/fr_FR/phpbenchmarks.php"
 fi
 ln -s "$langFrFr" resources/lang/fr_FR
-
-clearCache
-composer install --no-dev --classmap-authoritative
-clearCache
-php artisan config:cache
-php artisan route:cache
