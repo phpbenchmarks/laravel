@@ -11,6 +11,4 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Illuminate\Support\Facades\Route::get('/benchmark/helloworld', 'HelloWorldController@helloWorld');
