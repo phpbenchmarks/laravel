@@ -1,0 +1,10 @@
+component:
+    id: 3
+benchmark:
+    type: 1
+    relativeUrl: /benchmark/helloworld
+sourceCode:
+    entryPoint: public/index.php
+coreDependency:
+    name: laravel/framework
+    version: 6.18.10
