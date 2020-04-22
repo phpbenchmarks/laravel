@@ -10,6 +10,6 @@ class RouteServiceProvider extends ServiceProvider
     public function map()
     {
         Route::namespace('App\Http\Controllers')
-             ->group(base_path('routes/web.php'));
+             ->group(base_path('routes/api.php'));
     }
 }

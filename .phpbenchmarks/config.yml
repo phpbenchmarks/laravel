@@ -1,0 +1,10 @@
+component:
+    id: 3
+benchmark:
+    type: 3
+    relativeUrl: /benchmark/rest
+sourceCode:
+    entryPoint: public/index.php
+coreDependency:
+    name: laravel/framework
+    version: 6.18.10
