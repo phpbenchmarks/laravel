@@ -1,10 +1,18 @@
 component:
-    id: 3
+    slug: laravel
 benchmark:
-    type: 3
+    type: rest-api
     relativeUrl: /benchmark/rest
 sourceCode:
     entryPoint: public/index.php
+    urls:
+        route: 'https://github.com/phpbenchmarks/laravel/blob/laravel_6_rest-api_prepare/routes/api.php'
+        controller: 'https://github.com/phpbenchmarks/laravel/blob/laravel_6_rest-api_prepare/app/Http/Controllers/RestApiController.php'
+        randomizeLanguageDispatchEvent: 'https://github.com/phpbenchmarks/laravel/blob/laravel_6_rest-api_prepare/app/Http/Controllers/RestApiController.php'
+        randomizeLanguageEventListener: 'https://github.com/phpbenchmarks/laravel/blob/laravel_6_rest-api_prepare/app/Events/DefineLang.php'
+        translations: 'https://github.com/phpbenchmarks/laravel/blob/laravel_6_rest-api_prepare/resources/lang/en_GB/phpbenchmarks.php'
+        translate: 'https://github.com/phpbenchmarks/laravel/blob/laravel_6_rest-api_prepare/app/Transformer/RestApiTransformer.php'
+        serialize: 'https://github.com/phpbenchmarks/laravel/blob/laravel_6_rest-api_prepare/app/Transformer/RestApiTransformer.php'
 coreDependency:
     name: laravel/framework
     version: 6.18.10
