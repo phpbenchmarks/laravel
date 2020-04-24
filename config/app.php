@@ -144,7 +144,6 @@ return [
         Illuminate\Database\DatabaseServiceProvider::class,
         Illuminate\Filesystem\FilesystemServiceProvider::class,
         Illuminate\Queue\QueueServiceProvider::class,
-        Illuminate\View\ViewServiceProvider::class,
         Illuminate\Translation\TranslationServiceProvider::class,
 
         /*
