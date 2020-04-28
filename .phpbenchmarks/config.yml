@@ -10,4 +10,4 @@ sourceCode:
         controller: 'https://github.com/phpbenchmarks/laravel/blob/laravel_7_hello_world_prepare/app/Http/Controllers/HelloWorldController.php'
 coreDependency:
     name: laravel/framework
-    version: 7.7.1
+    version: 7.9.1
