@@ -20,8 +20,8 @@ Switch branch to select version and benchmark you want to see.
 
 ## Benchmarks
 
-You can find Laravel 7.7 benchmarks results on
-[benchmarks results page](http://www.phpbenchmarks.com/en/benchmark/laravel/7.7).
+You can find Laravel 7.9 benchmarks results on
+[benchmarks results page](http://www.phpbenchmarks.com/en/benchmark/laravel/7.9).
 
 See all Laravel benchmarked versions on [select version page](http://www.phpbenchmarks.com/en/benchmark/laravel/version).
 
