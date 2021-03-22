@@ -1,0 +1,13 @@
+component:
+    slug: laravel
+benchmark:
+    type: hello-world
+    relativeUrl: /benchmark/helloworld
+sourceCode:
+    entryPoint: public/index.php
+    urls:
+        route: 'https://github.com/phpbenchmarks/laravel/blob/laravel_8_hello_world_prepare/routes/web.php'
+        controller: 'https://github.com/phpbenchmarks/laravel/blob/laravel_8_hello_world_prepare/app/Http/Controllers/HelloWorldController.php'
+coreDependency:
+    name: laravel/framework
+    version: 8.33.1
