@@ -20,8 +20,8 @@ Switch branch to select version and benchmark you want to see.
 
 ## Benchmarks
 
-You can find Laravel 6.18 benchmarks results on
-[benchmarks results page](http://www.phpbenchmarks.com/en/benchmark/laravel/6.18).
+You can find Laravel 6.20 benchmarks results on
+[benchmarks results page](http://www.phpbenchmarks.com/en/benchmark/laravel/6.20).
 
 See all Laravel benchmarked versions on [select version page](http://www.phpbenchmarks.com/en/benchmark/laravel/version).
 

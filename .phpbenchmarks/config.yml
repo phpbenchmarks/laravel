@@ -10,4 +10,4 @@ sourceCode:
         controller: 'https://github.com/phpbenchmarks/laravel/blob/laravel_6_hello_world_prepare/app/Http/Controllers/HelloWorldController.php'
 coreDependency:
     name: laravel/framework
-    version: 6.18.10
+    version: 6.20.19
