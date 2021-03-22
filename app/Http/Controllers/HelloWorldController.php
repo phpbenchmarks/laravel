@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
-class HelloWorldController extends Controller
+use Illuminate\Routing\Controller as BaseController;
+
+class HelloWorldController extends BaseController
 {
     public function helloWorld()
     {
