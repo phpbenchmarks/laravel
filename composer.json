@@ -3,8 +3,8 @@
     "license": "proprietary",
     "type": "project",
     "require": {
-        "php": "^7.2.5",
-        "laravel/framework": "7.9.1",
+        "php": "^7.2.5|^8.0",
+        "laravel/framework": "7.30.4",
         "phpbenchmarks/benchmark-rest-data": "1.1.0"
     },
     "config": {
